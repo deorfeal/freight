@@ -66,35 +66,50 @@
                         <form class="section-top__form section-top-form" action="#">
                             <div class="section-top-form__inner">
                                 <h3 class="section-top-form__title">
-                                    Рассчитайте стоимость
-                                    перевозки груза
+                                    Рассчитайте стоимость 
                                 </h3>
                                 <div class="section-top-form__wrapper">
                                     <p class="section-top-form__text">
                                         Условия перевозки
                                     </p>
                                     <div class="section-top-form__buttons section-top-form-buttons">
-                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms">
+                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms" id="1">
                                             <span>
                                                 EXW
                                             </span>
                                             <input class="section-top-form-buttons__btn-checbox" type="checkbox">
                                         </div>
-                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms">
+                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms" id="2">
                                             <span>
                                                 FOB
                                             </span>
                                             <input class="section-top-form-buttons__btn-checbox" type="checkbox">
                                         </div>
-                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms">
+                                        <div class="section-top-form-buttons__btn section-top-form-buttons__btn--terms" id="3">
                                             <span>
                                                 FCA
                                             </span>
                                             <input class="section-top-form-buttons__btn-checbox" type="checkbox">
                                         </div>
                                     </div>
-                                    <input class="section-top-form__input" type="text" placeholder="Откуда">
-                                    <input class="section-top-form__input" type="text" placeholder="Куда">
+                                    <div class="section-top-form__inputs">
+                                        <div class="section-top-form__inputs-wrapper section-top-form__inputs-wrapper--active" id="0">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Откуда">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Куда">
+                                        </div>
+                                        <div class="section-top-form__inputs-wrapper" id="1">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Адрес завода">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Куда">
+                                        </div>
+                                        <div class="section-top-form__inputs-wrapper" id="2">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Откуда">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Куда">
+                                        </div>
+                                        <div class="section-top-form__inputs-wrapper" id="3">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Адрес завода">
+                                            <input class="section-top-form__inputs-input" type="text" placeholder="Куда">
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="section-top-form__wrapper section-top-form__wrapper--type">
                                     <p class="section-top-form__text">
@@ -155,6 +170,12 @@
                                         </p>
                                         <input class="section-top-form-date__input" type="date">
                                     </div>
+                                </div>
+                                <div class="section-top-form__wrapper">
+                                    <p class="section-top-form__additional">
+                                        Дополнительная информация 
+                                    </p>
+                                    <textarea class="section-top-form__additional-textarea" name="" id="" rows="2"></textarea>
                                 </div>
                                 <div class="section-top-form__wrapper section-top-form__wrapper--delivery">
                                     <div class="section-top-form__buttons section-top-form-buttons">
