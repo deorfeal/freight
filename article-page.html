@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="header__logo logo" href="#">
+                    <img class="logo-img" src="images/logo.svg" alt="logo">
+                </a>
+                <div class="header__wrapper">
+                    <a class="header__phone" href="tel:+74993988693">
+                        +7 (499) 398 86 93
+                    </a>
+                    <a class="header__link" href="https://system.mydeclarant.ru/auth-gate/login">
+                        <span>
+                            Вход
+                        </span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.5 14.2609V17.0163L15.3 17.1322V14.2609C15.3 13.7965 15.2099 13.3366 15.0345 12.9072C14.8592 12.4778 14.6021 12.0872 14.2774 11.7578C13.9527 11.4284 13.5669 11.1668 13.1418 10.9881C12.7166 10.8094 12.2606 10.7174 11.8 10.7174H8.2C7.2694 10.7174 6.3784 11.0925 5.72259 11.7578C5.06703 12.4229 4.7 13.3234 4.7 14.2609V16.9867L4.5 16.9287V14.2609C4.5 13.2611 4.89154 12.3037 5.58624 11.599C6.2807 10.8945 7.22104 10.5 8.2 10.5H11.8C12.779 10.5 13.7193 10.8945 14.4138 11.599C15.1085 12.3037 15.5 13.2611 15.5 14.2609Z"
+                                stroke="#01D39A" />
+                            <circle cx="10" cy="10" r="9.5" stroke="#01D39A" />
+                            <circle cx="10" cy="6" r="3.5" stroke="#01D39A" />
+                        </svg>
+                        <span class="line line--left"></span>
+                        <span class="line line--right"></span>
+                    </a>
+                </div>
+                <button class="header__burger">
+                    <span>
+
+                    </span>
+                    <span>
+
+                    </span>
+                    <span>
+
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <main class="main">
+            <article class="main__article article">
+                <div class="container">
+                    <a class="article__link" href="#">
+                        <svg width="26" height="8" viewBox="0 0 26 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.646446 3.64645C0.451185 3.84171 0.451185 4.15829 0.646446 4.35355L3.82843 7.53553C4.02369 7.7308 4.34027 7.7308 4.53553 7.53553C4.7308 7.34027 4.7308 7.02369 4.53553 6.82843L1.70711 4L4.53553 1.17157C4.7308 0.976311 4.7308 0.659728 4.53553 0.464466C4.34027 0.269204 4.02369 0.269204 3.82843 0.464466L0.646446 3.64645ZM26 3.5L1 3.5V4.5L26 4.5V3.5Z"
+                                fill="#0286B6"></path>
+                        </svg>
+                        <span>
+                            Вернуться на главную
+                        </span>
+                    </a>
+                    <div class="article__img">
+                        <img class="article__img-image" src="images/article-img.jpg" alt="img">
+                    </div>
+                    <p class="article__date">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 48 48" width="20px" height="20px">
+                            <path fill="#CFD8DC" d="M5 38V14h38v24c0 2.2-1.8 4-4 4H9c-2.2 0-4-1.8-4-4z" />
+                            <path fill="#F44336" d="M43 10v6H5v-6c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4z" />
+                            <g fill="#B71C1C">
+                                <circle cx="33" cy="10" r="3" />
+                                <circle cx="15" cy="10" r="3" />
+                            </g>
+                            <path
+                                d="M33 3c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2s2-.9 2-2V5c0-1.1-.9-2-2-2zM15 3c-1.1 0-2 .9-2 2v5c0 1.1.9 2 2 2s2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                                fill="#B0BEC5" />
+                            <path
+                                d="M13 20h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zm-18 6h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zm-18 6h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4zm6 0h4v4h-4z"
+                                fill="#90A4AE" />
+                        </svg>
+                        <span>
+                            01 октября 2020
+                        </span>
+                    </p>
+                    <div class="article__box">
+                        <h1 class="article__box-title">
+                            Готова ли ваша компания навсегда перейти на дистанционную работу?
+                        </h1>
+                        <p class="article__box-text">
+                            Последствия пандемии уже можно вполне конкретно выразить в цифрах. Статистические данные
+                            говорят о том, за II квартал 2020 года было отмечено падение занятости населения на 14%, что
+                            в абсолютных цифрах можно выразить, как потерю 400 миллионов рабочих мест. Это данные для
+                            всего мирового сообщества. Как же дальше будет существовать социум при таких глобальных
+                            потрясениях? Насколько мир и ваша компания готовы перейти к новой форме организации труда –
+                            дистанционной работе?
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            Тенденции
+                        </h2>
+                        <p class="article__box-text">
+                            Утрата рабочих мест, а точнее возможность доступа к ним, во время пандемии привела к тому,
+                            что часть занятого населения потеряла работу и вынуждена была искать новую, другая часть
+                            диверсифицировала свои возможности и перенаправила ресурсы в другое русло, поменяв род
+                            деятельности, третья предпочла заниматься прежним делом, но в новом статусе или организовав
+                            рабочее пространство в соответствии с новыми условиями, став самозанятыми и перейдя в
+                            дистанционный формат работы. Последний факт подтверждают данные, взятые с платформы для
+                            фрилансеров — PeoplePerHour: в Британии зафиксирован рост фрилансеров на 300%, в Испании –
+                            329%, Японии – 513%. <br>
+                            Полученные цифры потрясают масштабом, хотя еще 4 года назад консалтинговая компания McKinsey
+                            уверяла, что до 30% трудоспособного населения является свободнозанятым в той или иной
+                            отрасли по основному виду деятельности (30%) или по дополнительному (40%). В глобальной
+                            экономике европейских стран число самозанятых близко 15%. Причем к числу самых популярных
+                            для фрилансеров профессий относят такие, как недвижимость, репетиторство, розничная
+                            торговля, IT-сфера – веб-дизайн, веб-разработка, копирайтеры и так далее – всего 558
+                            профессий.
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            Самозанятые, фрилансеры, self-employed… Кто они?
+                        </h2>
+                        <p class="article__box-text">
+                            Самозанятые – это в большей степени это люди, которые ведут свой маленький бизнес без
+                            привлечения рабочей силы, занимаясь розничной/мелкооптовой торговлей или принимая заказы на
+                            аутсорсинг различных услуг от компаний или частных лиц. Время и длительность рабочего
+                            процесса, как зачастую и место выполнения работы, они вправе выбирать самостоятельно.
+                            Заказчик в таком случае получает продукт и может контролировать, оценивать его качество, но
+                            при этом совершенно не имеет возможности влиять на процесс исполнения услуги при том, что
+                            зачастую готов компенсировать затраты на инструменты, оборудование, расходные материалы.
+                            И вот тут наступает правовая коллизия, поскольку оборудование рабочего места уже факт того,
+                            что фрилансер, по сути, является сотрудником компании, которая обязана за него платить
+                            налоги и делать перечисления в фонды. Это с одной стороны, а с другой существуют ограничения
+                            на ряд видов деятельности, которые может осуществлять фрилансер, на размер получаемого
+                            годового дохода. Ну и наконец, бывший работник компании не может сразу заключать договоры на
+                            оказание услуг для этой же компании еще в течение 2 лет после разрыва трудового договора с
+                            прежним работодателем. <br>
+                            Чтобы избежать ограничений, накладываемых на режим самозанятости, для фрилансеров есть
+                            другие варианты оформления статуса налогоплательщика – можно выбрать режим индивидуального
+                            предпринимательства, когда придется платить налоги на доход и добавленную стоимость, делать
+                            отчисления в фонды, или выбрать оформление отношений с компанией в виде заключения
+                            гражданско-правового договора, согласно которому компания будет обязана выплачивать все
+                            налоги и страховые взносы.
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            Кому и насколько хорошо во фрилансе
+                        </h2>
+                        <p class="article__box-text">
+                            Высокая мобильность населения, наличие бирж занятости, агрегаторов объявлений и
+                            маркетплейсов, минимизация рабочих инструментов, сведенная порой до ноутбука и фотоаппарата,
+                            оснащенных соответствующим программным обеспечением, позволили части населения выбирать
+                            главные условия для деятельности самостоятельно, а потому удаленная работа из прогнозов
+                            фантастов стала реальностью. Платформа Upwork говорит нам о том, что в текущем году
+                            прогнозировали рост компаний с сотрудниками на дистанционке до 56%, однако реальность
+                            превзошла ожидания, и причиной тому стала пандемия коронавирусной инфекции.
+                            Даже столкнувшись с рядом сложностей, связанных с безопасным подключением к базам данных и
+                            корпоративным ресурсам, организацией и контролем процесса, работодатели и собственно
+                            исполнители пришли к мнению, что удаленная работа – это возможно. Более того, исследования,
+                            выполненные McKinsey, подтвердили, что при решении организационных проблем и отладке рабочих
+                            процессов, требующих в какой-то момент взаимодействия с другими сотрудниками, фрилансеры
+                            получают большее удовлетворение от работы в сравнении с прочими вариантами организации
+                            труда. Происходит это за счет более комфортных условий труда, отсутствия контроля
+                            начальства, вычеркивания из жизни обязательных расходов на транспорт, создание и поддержание
+                            делового имиджа, обеды в кафе и ресторанах и т. п. Для малого и среднего бизнеса подобная
+                            экономия может оказаться весьма существенной. <br>
+                            Вместе с тем, у self-employed отмечают больший страх в отношении условий постоянной
+                            занятости, экономической нестабильности и зависимости от заказов, которые то идут потоком,
+                            то пропадают, тогда как прочие сотрудники, как правило, по этому поводу не испытывают
+                            волнений.
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            А что в России? РФ в тренде!
+                        </h2>
+                        <p class="article__box-text">
+                            Еще до возникновения пандемии в России был запущен в 4-х регионах эксперимент по введению
+                            нового налогового статуса – самозанятых лиц, которые могут платить налог на профессиональную
+                            деятельность. Этот эксперимент стартовал в 2019 году, а в 2020 в связи с пандемией был
+                            массово распространен на все регионы. Уже сейчас результаты радуют: удается вывести из тени
+                            все больше самозанятых (до 20% трудоспособного населения РФ), получить дополнительные
+                            налоги, которые, кстати, очень демократичны по размерам — 4% с перечислений от физлиц, 6% —
+                            от юрлиц. Хотя цифры зарегистрированных пока не очень велики, но, как уверяет статистика
+                            ФНС, ежедневно регистрируется в новом налоговом статусе до 3000 человек, тогда как
+                            Яндекс.Касса свидетельствует о десятикратном росте самозанятых в сравнении с показателями
+                            прошлого года. <br>
+                            Пандемия лишь усилила тенденцию и создала оптимальные условия для выбора дистанционной
+                            работы: увеличение числа безработных, сокращение рабочих мест, возможность выбрать занятие
+                            по душе и получать за него деньги только подстегнули прежних офисных работников и заставили
+                            сделать выбор в пользу «удаленки». Вместе с тем налоговый программный продукт, созданный для
+                            самозанятых, оказался настолько простым и понятным, условия – щадящими, налоговые льготы –
+                            весомыми, что традиционно самозанятые, занимающиеся оказанием услуг и остающиеся в течение
+                            длительного времени в тени, теперь вышли на светлую сторону и готовы платить государству
+                            положенные проценты. Статистика ФНС говорит о том, что в числе фрилансеров оказались те, кто
+                            оказывает услуги по перевозкам, строительным и ремонтным работам, консультированию,
+                            преподаванию, доставке товаров, сдаче жилья и помещений в аренду. <br>
+                            Из минусов, присущих режиму самозанятости, отмечают такие, как: отсутствие выплат в
+                            пенсионный фонд и фонд соцстрахования, лимитирование по размеру годового дохода, отсутствие
+                            трудовой дисциплины, непрозрачность доходов. Часть проблем может быть устранена самим
+                            гражданином: при его желании он может производить самостоятельные отчисления в фонды или
+                            откладывать средства на пенсию, декретный отпуск и лечение.
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            Последствия роста самозанятых
+                        </h2>
+                        <p class="article__box-text">
+                            В государстве: правительство и законодатели вынуждены пересматривать программу пенсионного
+                            обеспечения и систему оказания страховых медицинских услуг. Государство обязано осуществлять
+                            меры по поддержке уровня доходов фрилансеров во время пандемии и подобных социальных,
+                            экономических катастроф. <br>
+                            В бизнесе: пересмотр ресурсов и возможностей в части организации трудового процесса в
+                            компаниях и перевод части сотрудников на удаленную работу. Высокая продуктивность фрилансера
+                            влечет рост производительности капитала. <br>
+                            На рынке: рост конкуренции, который на фоне роста качества и повышения спроса приводит к
+                            снижению цен. <br>
+                            В профессиональной среде: возникают новые формы самоорганизации, профессиональной
+                            солидарности.
+                        </p>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            Отношения бизнеса к фрилансу
+                        </h2>
+                        <p class="article__box-text">
+                            У бизнеса, то есть работодателей, по поводу введения удаленной работы для всех или части
+                            сотрудников сложились оптимистичные ожидания: при отсутствии затрат на контроль, при
+                            минимизации расходов на содержание сотрудников они получают возможность оценивать только
+                            продукт, то есть результат труда, что само по себе несет экономическую эффективность. Кроме
+                            того, работодатели отмечают особую характеристику фрилансеров – более высокий уровень
+                            адаптивности, гибкости, потенциала к быстрому восстановлению по сравнению с офисными
+                            работниками. Пандемия доказала оптимистичность ожиданий, а потому уже 62% компаний готовы
+                            нанимать сотрудников, способных работать удаленно. <br>
+                            В связи со сложившейся тенденцией бизнес вынужден принимать в расчет преимущества положения
+                            и предпринимать определенные шаги при реорганизации традиционных форм взаимодействия с
+                            работниками.
+                            Преимущества:
+                        </p>
+                        <ul class="article__box-list">
+                            <li>
+                                ⦁ Отказ от найма только местных кадров, которые могут не иметь достаточного или
+                                требуемого уровня владения профессиональными навыками.
+                            </li>
+                            <li>
+                                ⦁ Возможность использования распределенных ресурсов.
+                            </li>
+                            <li>
+                                ⦁ Удержание лучших и наиболее производительных сотрудников за счет адаптивного подхода.
+                            </li>
+                            <li>
+                                ⦁ Нивелирование нездоровой конкуренции между работниками одного уровня за счет скрытости
+                                производственных процессов и особенностей организации взаимодействий между сотрудниками,
+                                а за счет этого рост производительности.
+                            </li>
+                            <li>
+                                ⦁ Экономия времени на организацию рабочего процесса, в том числе контроля.
+                            </li>
+                            <li>
+                                ⦁ Материальная экономия в силу отсутствия необходимости обеспечивать рабочее место и
+                                условия труда.
+                                Результат очевиден: рост производительности, эффективности вложения капитала,
+                                прибыльности предприятия.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="article__box">
+                        <h2 class="article__box-subtitle">
+                            А ваша компания готова к переходу на дистанционную работу?
+                        </h2>
+                        <p class="article__box-text">
+                            Приняв во внимание существующие тенденции, сложившиеся условия, возникшие благодаря
+                            пандемии, преимущества и выгоды, которые может получить бизнес в результате перевода всех
+                            или части сотрудников на удаленную работу, готовы ли вы ответить на вопрос: готова ли ваша
+                            компания перейти на новый этап организации труда – дистанционную работу? Не спешите делать
+                            выводы, просто подумайте, над чем придется поработать и какие действия совершить при
+                            реорганизации трудовых процессов.
+                        </p>
+                        <ul class="article__box-list">
+                            <li>
+                                ⦁ Начните с того, чтобы расписать задачи. Учтите возможность развития и расширения
+                                бизнеса, сфер деятельности. Формула должна быть простой: функция – обязанности.
+                            </li>
+                            <li>
+                                ⦁ Обозначьте уровень компетенций для выполнения каждой задачи: обязанность – компетенция.
+                            </li>
+                            <li>
+                                ⦁ Следующий этап выбор сотрудника: компетенция – исполнитель. Воспользуйтесь уже
+                                существующей базой данных, учтите наличие обратной связи от клиентов, других сотрудников
+                                компании, данные метрик, сторонними базами данных – HH-ресурсы, службы занятости,
+                                профессиональные агрегаторы и площадки.
+                            </li>
+                            <li>
+                                ⦁ Выполните оценку издержек, связанных с привлечением исполнителей, работающих в офисе и
+                                на «удаленке», сопоставьте с имеющимися ресурсами. Обязательно учтите расходы на аренду
+                                помещения и оснащение рабочего места, издержки на обеспечение должных мер безопасности.
+                                Не забудьте о том, что любой рабочий процесс требует перезагрузки, модернизации,
+                                проведения офлайн совещаний и встреч даже при дистанционном формате.
+                            </li>
+                            <li>
+                                ⦁ Скорректируйте и перестройте решаемые задачи с учетом организации дистанционной работы.
+                            </li>
+                            <li>
+                                ⦁ Учтите социальные аспекты: асинхронность режимов работы удаленных сотрудников,
+                                возможность ошибок, возникающих при невербальном общении, которые затрудняют и порой
+                                замедляют рабочие процессы.
+                            </li>
+                            <li>
+                                ⦁ Создайте иерархию и формализуйте организационные, трудовые процессы.
+                            </li>
+                            <li>
+                                ⦁ Разработайте должностные инструкции.
+                            </li>
+                            <li>
+                                ⦁ Сформируйте виртуальную команду и переведите ее в реальный формат, но в онлайн режиме
+                                работы с обязательными чатами, видеозвонками, виртуальными совещаниями и собраниями.
+                            </li>
+                            <li>
+                                ⦁ Сократите все непроизводительные связи между сотрудниками на «удаленке».
+                            </li>
+                            <li>
+                                ⦁ Оптимизируйте связи между подразделениями.
+                            </li>
+                            <li>
+                                ⦁ При необходимости введите средства контроля по осуществлению контактов и взаимосвязей на
+                                разных уровнях производственного процесса.
+                                Поэтапное решение подобных вопросов позволит учесть все проблемные аспекты и максимально
+                                эффективно подготовиться к частичному или полному переходу для работы в онлайн-формате,
+                                то есть дистанционной. Таковы реалии, которые были спрогнозированы учеными и
+                                исследователями. Вероятно, переход к новому формату трудовых отношений и организации
+                                процессов мог бы продлиться значительно дольше, но события были подстегнуты пандемией.
+                                Поэтому сохраняйте спокойствие, трезво и рационально рассчитывайте затраты и
+                                сопоставляйте их с ресурсами, действуйте методично и будьте успешны, каким бы делом вы
+                                не занимались.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="article_about about" id="about">
+                        <div class="about__inner">
+                            <ul class="about__socials about-socials">
+                                <li class="about-socials__item">
+                                    <a class="about-socials__link"
+                                        href="https://www.facebook.com/mydeclarant.ru?mibextid=LQQJ4d">
+                                        FB
+                                    </a>
+                                </li>
+                                <li class="about-socials__item">
+                                    <a class="about-socials__link" href="https://t.me/mylogist">
+                                        TG
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <section class="main__news news" id="news">
+                <div class="container">
+                    <div class="news__top">
+                        <h2 class="news__top-title title">
+                            Другие статьи и новости
+                        </h2>
+                        <a class="news__top-link" href="news.html">
+                            <span>
+                                Ко всем статьям
+                            </span>
+                            <svg width="17" height="8" viewBox="0 0 17 8" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.3536 4.35355C16.5488 4.15829 16.5488 3.84171 16.3536 3.64645L13.1716 0.464467C12.9763 0.269205 12.6597 0.269205 12.4645 0.464467C12.2692 0.659729 12.2692 0.976312 12.4645 1.17157L15.2929 4L12.4645 6.82843C12.2692 7.02369 12.2692 7.34027 12.4645 7.53553C12.6597 7.7308 12.9763 7.7308 13.1716 7.53554L16.3536 4.35355ZM-4.37114e-08 4.5L16 4.5L16 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                                    fill="#0385B6" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="news__inner">
+                        <div class="news__item news-item">
+                            <img class="news-item__img" src="images/news-img-1.png" alt="img">
+                            <a class="news-item__link" href="#">
+                                Что делать и как быть рассказывает наш таможенный эксперт.
+                            </a>
+                            <p class="news-item__date">
+                                22.04.2020
+                            </p>
+                        </div>
+                        <div class="news__item news-item">
+                            <img class="news-item__img" src="images/news-img-2.png" alt="img">
+                            <a class="news-item__link" href="#">
+                                Как правильно подать декларацию и не нервничать?
+                            </a>
+                            <p class="news-item__date">
+                                22.04.2020
+                            </p>
+                        </div>
+                        <div class="news__item news-item">
+                            <img class="news-item__img" src="images/news-img-3.png" alt="img">
+                            <a class="news-item__link" href="#">
+                                Назначена дата запуска платформы МойДекларант!
+                            </a>
+                            <p class="news-item__date">
+                                22.04.2020
+                            </p>
+                        </div>
+                        <div class="news__item news-item">
+                            <img class="news-item__img" src="images/news-img-4.png" alt="img">
+                            <a class="news-item__link" href="#">
+                                Назначена дата запуска платформы МойДекларант!
+                            </a>
+                            <p class="news-item__date">
+                                22.04.2020
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__videos videos">
+                <div class="container">
+                    <h2 class="videos__title title">
+                        Видео с нашего
+                        <a href="#">
+                            YouTube
+                        </a>
+                    </h2>
+                    <div class="videos__inner">
+                        <div class="videos__img">
+                            <img class="videos__img-image" src="images/videos-img-1.png" alt="img">
+                        </div>
+                        <div class="videos__img">
+                            <img class="videos__img-image" src="images/videos-img-1.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__about about about--article" id="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <h2 class="about__title title">
+
+                            Подпишись на наши социальные сети и будь в курсе всех новостей!
+                        </h2>
+                    </div>
+                    <div class="about__wrapper">
+                        <p class="about__text">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <path fill="url(#pattern0)" d="M0 0h64v64H0z" />
+                                <defs>
+                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlink:href="#image0" transform="scale(.01389)" />
+                                    </pattern>
+                                    <image id="image0" width="72" height="72"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <ul class="about__socials about-socials">
+                            <li class="about-socials__item">
+                                <a class="about-socials__link" href="https://t.me/mylogist">
+                                    YT
+                                </a>
+                            </li>
+                            <li class="about-socials__item">
+                                <a class="about-socials__link" href="https://vk.com/id798464307">
+                                    FB
+                                </a>
+                            </li>
+                            <li class="about-socials__item">
+                                <a class="about-socials__link"
+                                    href="https://www.facebook.com/mydeclarant.ru?mibextid=LQQJ4d">
+                                    TG
+                                </a>
+                            </li>
+                            <li class="about-socials__item">
+                                <a class="about-socials__link"
+                                    href="https://www.instagram.com/mydeclarant.ru/?igshid=1huqmplqkxw2p">
+                                    IG
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="main__socials socials">
+                <div class="socials__box">
+                    <span>
+
+                    </span>
+                    <span>
+
+                    </span>
+                    <span>
+
+                    </span>
+                    <a class="socials__box-link" href="https://join.skype.com/invite/jgzcsWhY6mfs">
+                        <img src="images/skype-icon.png" alt="skype">
+                    </a>
+                    <a class="socials__box-link"
+                        href="https://api.whatsapp.com/send/?phone=79251301405&text&type=phone_number&app_absent=0">
+                        <img src="images/whatsapp-icon.png" alt="whatsapp">
+                    </a>
+                    <a class="socials__box-link" href="https://t.me/mylogist">
+                        <img src="images/telegram-icon.png" alt="telegram">
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
