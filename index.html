@@ -85,7 +85,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <form class="section-top__form section-top-form section-top-form--station">
+                        <form class="section-top__form section-top-form">
                             <div class="section-top-form__from section-top-form-from">
                                 <h3 class="section-top-form-from__title">
                                     Откуда
@@ -117,14 +117,14 @@
                                     </select>
                                 </div>
                                 <div class="section-top-form-from__buttons section-top-form-from-buttons">
-                                    <div class="section-top-form-from-buttons__box">
+                                    <div class="section-top-form-from-buttons__box section-top-form-from-buttons__box--active">
                                         <p class="section-top-form-from-buttons__box-text">
                                             Морской порт
                                         </p>
                                         <input class="section-top-form-from-buttons__box-input" type="checkbox" id="0">
                                     </div>
                                     <div
-                                        class="section-top-form-from-buttons__box section-top-form-from-buttons__box--active">
+                                        class="section-top-form-from-buttons__box">
                                         <p class="section-top-form-from-buttons__box-text">
                                             Ж/Д станция
                                         </p>
@@ -134,7 +134,40 @@
                                 <p class="section-top-form-from__text">
                                     Выберете пункт отправелния
                                 </p>
-                                <div class="section-top-form-from__target-select section-top-form-from__target-select--acitve custom-select"
+                                <div class="section-top-form-from__target-select section-top-form-from__target-select--train custom-select"
+                                style="width:200px;" id="0">
+                                <select>
+                                    <option value="0">
+                                        Шенжень, Shenzhen
+                                    </option>
+                                    <option value="1">
+                                        Шенжень, Shenzhen
+                                    </option>
+                                    <option value="2">
+                                        Гуанчжоу, Guangzhou
+                                    </option>
+                                    <option value="3">
+                                        Шанхай, Shanghai
+                                    </option>
+                                    <option value="4">
+                                        Нингбо, Ningbo
+                                    </option>
+                                    <option value="5">
+                                        Циндао, Qingdao
+
+                                    </option>
+                                    <option value="6">
+                                        Тяньцзинь, Tianjin
+                                    </option>
+                                    <option value="7">
+                                        Сямынь, Xiamen
+                                    </option>        
+                                    <option value="8">
+                                        Фучжоу, Fuzhou
+                                    </option>     
+                                </select>
+                            </div>
+                                <div class="section-top-form-from__target-select section-top-form-from__target-select--first section-top-form-from__target-select--acitve custom-select"
                                     style="width:200px;" id="1">
                                     <select>
                                         <option value="0">
@@ -344,6 +377,19 @@
                                     </span>
                                     прибытия
                                 </p>
+                                <div class="select--train custom-select" style="width:200px;">
+                                    <select>
+                                        <option value="0">
+                                            Москва
+                                        </option>
+                                        <option value="1">
+                                            Москва, Moscow
+                                        </option>
+                                        <option value="2">
+                                            Санкт-Петербург, Saint Petersburg
+                                        </option>
+                                    </select>
+                                </div>
                                 <div class="custom-select" style="width:200px;">
                                     <select>
                                         <option value="0">
@@ -353,7 +399,7 @@
                                             Владивосток, Vladivostok
                                         </option>
                                         <option value="2">
-                                            Восточный/Находка, Vostochny/Nakhodka
+                                            Восточный/Находка, Vostochny
                                         </option>
                                         <option value="3">
                                             Санкт-Петербург, Saint Petersburg
@@ -366,13 +412,13 @@
                                 <div class="custom-select" style="width:200px;">
                                     <select>
                                         <option value="0">
-                                            В пункте прибытия
+                                            В порту прибытия
                                         </option>
                                         <option value="1">
-                                            В пункте прибытия
+                                            В порту прибытия
                                         </option>
                                         <option value="2">
-                                            В порту прибытия
+                                            В пункте прибытия
                                         </option>
                                     </select>
                                 </div>
